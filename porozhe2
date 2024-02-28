@@ -1,0 +1,47 @@
+class person:
+def init(self,name):
+self.name=name
+
+def setnumber(self,number):
+    self.number=number
+
+def setaddress(self,address):
+    self,address=address
+def print person("self"):
+    print("name")
+    print("number")
+    ptint("address")
+class student(person):
+def init(self,status):
+self.status=status
+def setstatus(self,status)
+if status in ("freshman","sophomore","junior","senior"):
+else:
+print("false")
+def printstudent(self):
+print("status"):
+class employee(person):
+def init(self,salary,estekhdam):
+self.salary=salary
+self.estekhdam=estekhdam
+def setsalary(self,salary):
+self.salary=salary
+def printemployee(self):
+self.printperson()
+print("estekhdam")
+print("salary")
+
+person=person1("ali")
+person1.setnumber("09155555")
+person1.address("mashhad")
+
+student=student1("hosein","1400_07_1")
+student1.setstatus("sophemore")
+student1.setnumber("09121212") student1.setaddress("tehran")
+
+employee=employee1("mahdi","1401_07_20")
+employee1.setnumber("0960987") employee1.setaddress("esfahan")
+employee1.setsalary("7000000")
+person1.perintperson()
+student1.printstudent()
+employee1.printemployee()
