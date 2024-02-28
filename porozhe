@@ -1,1 +1,16 @@
-python 
+porozhe1
+
+class school:
+def__init__(year,teacher,student_one,student_two,nomre_ yek,nomre_do):
+year.teacher=teacher
+year.student_one=student_one
+year.student_two=student_two
+year.nomre_yek=nomre_yek
+year.nomre_do=nomre_do
+return(year.nomre_yek+year.nomre_two)/2
+
+math_24=school("mrs.jules","math_one ","judie",18,"jack",13)
+since_24=shool("mr.jefferson","since_one","judie",20,"jack",17)
+
+print(math_24.get_nomre())
+print(since_24.get_nomre())
